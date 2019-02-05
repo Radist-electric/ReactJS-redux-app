@@ -26,7 +26,7 @@ body {
   justify-content: space-around;
   width: 300px;
 }
-#counter {
+.counter {
   height: 300px;
   width: 100%;
   margin: 0 0 34px;
@@ -42,7 +42,7 @@ body {
   color: #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-#inc, #dec, #reset {
+.inc, .dec, .reset {
   position: relative;
   display: inline-block;
   width: 65px;
@@ -50,20 +50,20 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-#inc {
+.inc {
   background: #089C20;
 }
-#dec {
+.dec {
   background: #E7AA10;
 }
-#reset {
+.reset {
   background: #CF1C1C;
 }
 img {
   position: absolute;
   transform: translate(25%, 24%);
 }
-#dec img {
+.dec img {
   transform: translate(25%, 133%);
 }
 

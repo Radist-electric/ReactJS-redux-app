@@ -1,3 +1,4 @@
 export const inc = () => ({type: 'INC'});
 export const dec = () => ({type: 'DEC'});
-export const reset = (value) => ({type: 'RESET', value});
+export const reset = () => {
+    return {type: 'RESET', value: 0}};
